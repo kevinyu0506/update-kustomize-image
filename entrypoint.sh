@@ -1,4 +1,7 @@
 #!/bin/bash
+
+set -e # exit with non-zero exit code if anything fails
+
 update_image_tag() {
     image=$1
     tag=$2
